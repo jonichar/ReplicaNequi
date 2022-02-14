@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(156, 152, 152);
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+#containerApp {
+    background-image:url("nequi-bg.png");
+    background-size: cover;
+    width: 350px;
+    min-height: 100vh;
+    padding: 0 0.8em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#overlayMenu {
+    background-color: rgba(33, 0, 72, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    min-height: 100vh;
+    padding: 0 0.8em;
+
+    transition: all;
+    transition-duration:0.05s ;
+}
+
+.overlayMenuHide{
+    transform: scale(0);
+}
+
+.overlayMenuVisible{
+    transform: scale(1);
+}
+
+#containerTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+#userNameContainer{
+    padding: 0.8em;
+
+}
+
+#footerMenu{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(182, 175, 175);
+    padding: 0.5em 0.8em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+#moneyContainer {
+    color: rgb(182, 175, 175);
+    padding-top: 2.75em;
+    flex: 1;
+}
+
+#moneyButtonContainer {
+    display: flex;
+    padding-top: 15em;
+    justify-content: end;
+}
+
+.alignRightFirst {
+    display: flex;
+    padding-top: 16.8em;
+    justify-content: end;
+    align-items: center;
+}
+
+.alignRight {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#moneyButton {
+    background-color: #fd3072;
+    padding: 0.8em;
+    border-radius: 360em;
+    margin-bottom: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#closeOverlayButton {
+    background-color: rgba(42, 203, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360em;
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+#homeMenu {
+    background-color: #feeef3;
+    border-radius: 1.5em;
+    padding: 0.2em 2em;
+    display: flex;
+    align-items: center;
+}
+
+.moneyButtonImage{
+    width: 1.6em;
+    height: 1.6em;
+    user-select: none;
+}
+
+.whiteBigLetter {
+    color: rgb(240, 232, 232);
+    font-weight: 600;
+}
+
+.textInside {
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.textInsideMoney {
+    margin-top: 12px;
+    display: flex;
+    font-size: 0.8em;
+    font-weight: thin;
+    justify-content: end;
+    align-items: center;
+    user-select: none;
+}
+
+.moneyAvailableText {
+    font-size: x-large;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.totalText {
+    text-align: right;
+    margin-top: 1em;
+    font-size: medium;
+    user-select: none;
+}
+
+.totalMoney {
+    text-align: right;
+    margin-top: 5px;
+    font-size: medium;
+}
+
+.visibleIcon{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.menuOption{
+    width: 1.4em;
+    height: 1.4em;
+    user-select: none;
+    color: rgba(128, 128, 182, 0.8);
+}
+
+.menuOptionContainer {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0 0.2em;
+    cursor: pointer;
+}
+
+.selectedOption {
+    user-select: none;
+    color: #fd3072;
+}
+
+.chevron-left {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.chevronContainer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.closeOverlayButtonImage {
+    width: 1.6em;
+    height: 1.6em;
+    user-select: none;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.hideContainer {
+    display: none;
+}
+
+.visibleContainer{
+    display: block;
+}
+
+.moneyButtonOptionsText {
+    color: white;
+}
+
+.moneyButtonOptionsIcon{
+    width: 13px;
+    height: 13px;
+    color: white;
+}
+
+.moneyButtonOptionsIconContainer{
+    background-color: #fd3072;
+    margin-left: 10px;
+    border-radius: 360em;
+    padding: 0.3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transition {
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.upAnimation {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+#projectContainer {
+    background-image:url("nequi-login-background.png");
+    background-size: cover;
+    width: 350px;
+    min-height: 100vh;
+    padding: 0 0.8em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#continueButton {
+    background-color: #fd3072;
+    padding: 0.7em;
+    border-radius: 365em;
+    color: white;
+
+    cursor: pointer;
+}
+
+.bottomContainer {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.phoneNumber {
+    padding: 0.8em 3em 0.8em 3em;
+    margin-bottom: 15px;   
+    border-radius: 10px; 
+}
+
+
+#withdrawContainer {
+    background-image:url("retirar.png");
+    background-size: cover;
+    width: 350px;
+    min-height: 100vh;
+    padding: 0 0.8em;
+}
+
+#code {
+    padding-top: 9.3em;
+    padding-left: 3.7em;
+    color: white;
+    font-size: 2em;
+}

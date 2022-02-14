@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+    </style>
+    <link rel="stylesheet" href="cajero.css">
+</head>
+<body>
+    <div id="projectContainer" class="visibleContainer">
+        <div class="logo"><img class="logoImage" src="bancolombia.png" alt=""></div>
+
+        <div class="ticketContainer visibleContainer">
+            <div id="middleContainer">
+                <div class="infoText">Selecciona el valor a retirar</div>
+            </div>
+            
+            <div class="dataValidate visibleContainer">
+                <div><input class="dataPhoneNumber accessData" type="text" value="" placeholder="Ingrese su numero de telefono"></div>
+                <div><input class="dataCode accessData" type="text" value="" placeholder="Ingrese el codigo"></div>
+                <div id="continueButton">Continuar</div>
+            </div>
+    
+            <div class="bottomContainer hideContainer">
+                <div class="optionsMenu">
+                    <div class="moneyOption">
+                        <div class="borderBlackLeft"></div>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="leftCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </div>
+                        <div class="moneyValue value20k">$ 20.000</div>
+                    </div>
+                    <div class="moneyOption">
+                        <div class="moneyValue value50k">$ 50.000</div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="rightCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                        <div class="borderBlackRight"></div>
+                    </div>
+                </div>
+    
+                <div class="optionsMenu">
+                    <div class="moneyOption">
+                        <div class="moneyOption">
+                            <div class="borderBlackLeft"></div>
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="leftCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                                </svg>
+                            </div>
+                            <div class="moneyValue value100k">$ 100.000</div>
+                        </div>
+                    </div>
+                    <div class="moneyOption">
+                        <div class="moneyValue value200k">$ 200.000</div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="rightCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                        <div class="borderBlackRight"></div>
+                    </div>
+                </div>
+        
+                <div class="optionsMenu">
+                    <div class="moneyOption">
+                        <div class="borderBlackLeft"></div>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="leftCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </div>
+                        <div class="moneyValue value300k">$ 300.000</div>
+                    </div>
+                    <div class="moneyOption">
+                        <div class="moneyValue value400k">$ 400.000</div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="rightCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                        <div class="borderBlackRight"></div>
+                    </div>
+                </div>
+        
+                <div class="optionsMenuBottom">
+                    <div class="moneyOption">
+                        <div class="borderBlackLeft"></div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="leftCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </div>
+                        <div class="moneyValue value600k">$ 600.000</div>
+                    </div>
+                    <div class="moneyOption">
+                        <div class="moneyValue">Solicitar un valor diferente</div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="rightCheveron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                        <div class="borderBlackRight"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="printTicketsContainer hideContainer"></div>
+    </div>
+
+
+
+    <script src="cajero.js"></script>
+</body>
+</html>

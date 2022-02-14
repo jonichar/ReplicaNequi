@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recargar Nequi</title>
+    <link rel="stylesheet" href="styleRecargar.css">
+</head>
+<body>
+
+    <div id="topContainer">
+        <div class="logo"><img class="logoNequi" src="nequi.png" alt=""></div>
+        <div class="recargaText">Recarga De Cuenta</div>
+    </div>
+
+    <div id="mainContainer" class="visible">
+
+
+        <div id="rechargeDataContainer" class="dataContainer">
+            <div class="text">Cuenta a recargar</div>
+            <div class="sizeContainer">
+                <input id="cellphone" class="inputSize" type="text" placeholder="Numero de Celular">
+            </div>
+            <div class="sizeContainer">
+                <input id="value" class="inputSize" type="text" placeholder="$ 0">
+            </div>
+        </div>
+
+
+        <div id="typePersonContainer" class="dataContainer">
+            <div class="text">Tipo de persona</div>
+
+            <div>
+                <select name="" id="typePerson">
+                    <option value="">Natural</option>
+                    <option value="">Juridica</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div id="typePersonContainer" class="dataContainer">
+            <div class="text">Elije el banco</div>
+
+            <div>
+                <select name="" id="typeBank"></select>
+            </div>
+        </div>
+
+
+        <div class="continueButton">Continuar</div>
+    </div>
+
+    <div id="messageContainer" class="hide">
+        <div class="messageContainerStyle">RECARGA EXITOSA</div> 
+    </div>
+        
+
+    <script src="recargar.js"></script>
+</body>
+</html>

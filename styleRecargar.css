@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+
+body{
+    background-color: rgb(51, 221, 221);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.3em 1.3em;
+
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+input{
+    border: 01px solid rgba(128, 128, 128, 0.2);
+}
+
+select{
+    border: 1apx solid rgba(128, 128, 128, 0.2);
+}
+
+
+#mainContainer{
+    background-size: cover;
+    width: 350px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataContainer{
+    margin-top: 2em;
+    border: 01px solid rgba(128, 128, 128, 0.5);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeContainer {
+    flex: 1;
+}
+
+#typeBank{
+    padding: 1em 14.2em 0.8em 1em;
+}
+
+#typePerson {
+    padding: 1em 20.85em 1em 0.7em;
+}
+
+.inputSize {
+    padding: 1em 12.8em 1em 1em;
+}
+
+.text {
+    flex: 1;
+    background-color: #eefcfb;
+    color: #2fcad7;
+    padding: 0.5em 0.8em;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.logoNequi{
+    height: 40px;
+    width: 175px;
+}
+
+.recargaText{
+    font-size: 1.5em;
+    color: rgb(60, 60, 94);
+}
+
+.continueButton {
+    margin-top: 30px;
+    background-color: #fd3072;
+    padding: 1em 9em;
+    border-radius: 365em;
+    cursor: pointer ;
+    font-size: 0.95em;
+    color: white;
+}
+
+.messageContainerStyle {
+    color: white;
+    font-size: 20px;
+    margin-top: 200px;
+    background-color: #fd3072;
+    padding: 2em;
+    border-radius: 365em;
+}
+
+.visible {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
